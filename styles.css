@@ -3,15 +3,14 @@
     display: flex;
 }
 
-.container div {
-/*    flex: 1;*/
-
-}
-
 .tree {
     width: 100px;
 }
 
 .star {
     width: 75px;
+}
+
+.banner {
+    background-color: yellow;
 }
