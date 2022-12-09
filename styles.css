@@ -42,10 +42,12 @@
 .centrobaixo {
     height: 320px;
     display: flex;
+    text-align: center;
 }
 
 .right, .left {
     max-width: 25%;
+    min-width: 25%;
 }
 
 .right {
