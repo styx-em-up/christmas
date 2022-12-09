@@ -46,3 +46,6 @@
 .right {
     justify-content: flex-end;
 }
+.snowman {
+    max-width: 100%;
+}
