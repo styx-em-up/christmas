@@ -7,7 +7,7 @@
     background-color: red;
     display: flex;
     max-width: 500px;
-
+    margin: 0 auto;
 }
 
 .tree {
@@ -37,7 +37,7 @@
 
 .centrobaixo {
     height: 200px;
-
+    display: flex;
 }
 
 .right, .left {
@@ -48,4 +48,10 @@
 }
 .snowman {
     max-width: 100%;
+    align-items: flex-end;
+}
+
+body {
+    background-color: rgb(28, 235, 28);
+
 }
