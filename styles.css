@@ -1,10 +1,17 @@
+* {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 .container {
     background-color: red;
     display: flex;
+    max-width: 500px;
+
 }
 
 .tree {
-    width: 100px;
+    max-width: 100%;
 }
 
 .star {
@@ -13,4 +20,28 @@
 
 .banner {
     background-color: yellow;
+    padding: 1px;
+    height: 100px;
+}
+.texto {
+    border: 3px solid red;
+    padding: 10px 20px;
+}
+
+.middle {
+    text-align: center;
+    max-width: 400px;
+    min-width: 50%;
+}
+
+.centrobaixo {
+    height: 100px;
+
+}
+
+.right, .left {
+    max-width: 25%;
+}
+.right {
+    justify-content: flex-end;
 }
