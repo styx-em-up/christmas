@@ -8,15 +8,16 @@
     display: flex;
     max-width: 500px;
     margin: 0 auto;
+    height: 600px;
 }
 
 .tree {
     max-width: 100%;
-    height: 400px;
+    height: 600px;
 }
 
 .star {
-    width: 75px;
+    width: 150px;
 }
 
 .banner {
@@ -34,10 +35,11 @@
     text-align: center;
     max-width: 400px;
     min-width: 50%;
+    height: 600px;
 }
 
 .centrobaixo {
-    height: 200px;
+    height: 320px;
     display: flex;
 }
 
@@ -49,10 +51,14 @@
 }
 .snowman {
     max-width: 100%;
-    align-items: flex-end;
+
 }
 
 body {
     background-color: rgb(28, 235, 28);
 
+}
+.center-up {
+/*    border: 3px solid black;*/
+    height: 25%;
 }
